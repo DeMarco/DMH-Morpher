@@ -414,6 +414,108 @@
 				)
 			)
 		)
+		(symbol "SynthStuff:MountingHole_ToggleSwitch"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Function"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switch Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SynthStuff:Panel_GND_Solder_Wire_Pad"
 			(pin_names
 				(offset 1.016) hide)
@@ -633,6 +735,12 @@
 		)
 	)
 	(junction
+		(at 72.39 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1050dcd4-2008-435e-accd-30f660581480")
+	)
+	(junction
 		(at 25.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -643,6 +751,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4066e4d6-d19d-4699-a9eb-d8fc8ffb419d")
+	)
+	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40748b1c-b9a8-4072-9fc1-8c968ccdf049")
+	)
+	(junction
+		(at 72.39 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41243afb-e405-40e8-bd9c-3d70a4f9f5bf")
 	)
 	(junction
 		(at 25.4 45.72)
@@ -781,6 +901,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffe9be62-1dd5-463d-99af-aae069c31cff")
+	)
+	(wire
+		(pts
+			(xy 101.6 132.08) (xy 101.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00865e65-233d-4310-8607-62d7c874a79c")
 	)
 	(wire
 		(pts
@@ -1084,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5931a99f-ec1f-484b-940c-f5cee608e042")
+	)
+	(wire
+		(pts
 			(xy 25.4 196.85) (xy 39.37 196.85)
 		)
 		(stroke
@@ -1171,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "8225979a-e125-4b11-a7ea-f6b4f4009300")
+	)
+	(wire
+		(pts
+			(xy 101.6 195.58) (xy 101.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d838ff-3ad4-4faf-9200-6ea4bac9ed76")
 	)
 	(wire
 		(pts
@@ -1374,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 133.35) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9804d87-5e54-43bc-a8d1-f16a29275ada")
+	)
+	(wire
+		(pts
 			(xy 107.95 25.4) (xy 83.82 25.4)
 		)
 		(stroke
@@ -1394,6 +1554,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 196.85) (xy 101.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf6b1db-39de-4b02-8afa-b6ae064b7def")
+	)
+	(wire
+		(pts
 			(xy 39.37 133.35) (xy 39.37 132.08)
 		)
 		(stroke
@@ -1411,6 +1581,16 @@
 			(type default)
 		)
 		(uuid "f4792133-04a6-4eee-8513-fea2983a8cda")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf3bddb-8a03-4d10-8058-b5126bfbbd5e")
 	)
 	(wire
 		(pts
@@ -1691,6 +1871,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 101.6 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ed3e94-a10c-4760-8299-097782550de4")
+		(property "Reference" "H29"
+			(at 104.14 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A Inputs"
+			(at 104.14 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 104.14 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6c8e20d5-3dff-4c00-9b9b-338a8a7d9969")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Pot")
 		(at 39.37 129.54 0)
 		(unit 1)
@@ -1752,6 +1999,73 @@
 			(project "DMH-Morpher-PANEL-10"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 101.6 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20475667-3346-4d0f-b6fd-3cb67aad98f9")
+		(property "Reference" "H30"
+			(at 104.14 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B Inputs"
+			(at 104.14 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 104.14 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e6c9ee73-ced5-48af-92eb-e437da40c456")
+		)
+		(instances
+			(project "DMH-Morpher-PANEL-10"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H30")
 					(unit 1)
 				)
 			)
@@ -1886,6 +2200,73 @@
 			(project "DMH-Morpher-PANEL-10"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
+		(at 101.6 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463b3905-230e-42d6-8f24-c380c88f86a1")
+		(property "Reference" "H31"
+			(at 104.14 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C Inputs"
+			(at 104.14 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switch Mounting Hole"
+			(at 104.14 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2b8ed435-e1d3-4858-afae-dfbee5ac8c0e")
+		)
+		(instances
+			(project "DMH-Morpher-PANEL-10"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H31")
 					(unit 1)
 				)
 			)
