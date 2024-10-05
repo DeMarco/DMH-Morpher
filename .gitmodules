@@ -4,3 +4,6 @@
 [submodule "DMH-Morpher-PANEL-10/Libraries/SynthStuff"]
 	path = DMH-Morpher-PANEL-10/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH-Morpher-PCB-10/Libraries/SynthStuff"]
+	path = DMH-Morpher-PCB-10/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
